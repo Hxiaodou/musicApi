@@ -1,0 +1,9 @@
+node_modules/
+.idea/
+npm-debug.log
+package-lock.json
+.vscode/
+controllers/
+yarn.lock
+.DS_Store
+.leancloud/
