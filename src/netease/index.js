@@ -120,6 +120,7 @@ export default function (instance) {
             cp: disable(info, privilege),
             dl: !privilege.fee,
             quality: {
+                128: privilege.maxbr >= 128000,
                 192: privilege.maxbr >= 192000,
                 320: privilege.maxbr >= 320000,
                 999: privilege.maxbr >= 999000,
