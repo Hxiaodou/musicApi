@@ -31,6 +31,7 @@ function _default(instance) {
       cp: info.action.msg === 3 || !info.interval,
       dl: !info.pay.pay_down,
       quality: {
+        128: Boolean(file.size_128 || file.size_128mp3),
         192: Boolean(file.size_aac || file.size_192aac || file.size_ogg || file.size_192ogg),
         320: Boolean(file.size_320 || file.size_320mp3),
         999: Boolean(info.file.size_flac)

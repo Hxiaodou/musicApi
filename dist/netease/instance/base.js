@@ -34,7 +34,7 @@ function _default(createInstance) {
     if (config.pureFly) return config; // 浏览器且本地有cookie信息 接口就都带上cookie
 
     if (typeof window !== 'undefined') {
-      const loginCookies = localStorage.getItem('@suen/music-api-netease-login-cookie');
+      const loginCookies = localStorage.getItem('@huangsh/music-api-netease-login-cookie');
 
       if (loginCookies) {
         config.headers.Cookie = loginCookies;

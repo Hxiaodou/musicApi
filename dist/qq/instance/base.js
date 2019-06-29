@@ -39,7 +39,7 @@ function _default(createInstance) {
     let g_tk = 5381;
 
     if (typeof window !== 'undefined') {
-      const loginCookies = localStorage.getItem('@suen/music-api-qq-login-cookie');
+      const loginCookies = localStorage.getItem('@huangsh/music-api-qq-login-cookie');
 
       if (loginCookies) {
         try {
