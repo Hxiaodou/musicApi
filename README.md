@@ -10,9 +10,9 @@
 # Usage
 - node
     ````js
-    npm install @suen/music-api
+    npm install @huangsh/music-api
     
-    import musicApi from '@suen/music-api'
+    import musicApi from '@huangsh/music-api'
     ````
 - native
   - 引入[js](https://github.com/sunzongzheng/musicApi/blob/master/dist/app.native.js)

@@ -1,4 +1,4 @@
-declare module '@suen/music-api' {
+declare module '@huangsh/music-api' {
 
     interface album {
         id: number | string
